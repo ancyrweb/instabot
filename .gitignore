@@ -1,0 +1,8 @@
+node_modules/
+.idea/
+.idea/vcs.xml
+config/config.ts
+.DS_Store
+
+server/var/variables.json
+server/config/config.ts

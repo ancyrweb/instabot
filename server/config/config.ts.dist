@@ -1,0 +1,6 @@
+const Config = {
+  authToken: "this is a test token that should not be used",
+  webPort: 9182,
+};
+
+export default Config;

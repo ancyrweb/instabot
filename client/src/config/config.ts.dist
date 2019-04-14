@@ -1,0 +1,4 @@
+export default {
+  url: "",
+  authToken: "", // should match server authToken
+}

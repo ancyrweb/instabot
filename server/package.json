@@ -1,0 +1,26 @@
+{
+  "name": "instabot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "pretty": "prettier --write \"src/**/*.{ts,tsx,js}\""
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.2.0",
+    "@types/graphql-iso-date": "^3.3.1",
+    "@types/puppeteer": "^1.10.2",
+    "@types/redux": "^3.6.0",
+    "prettier": "^1.16.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.1"
+  },
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "graphql": "^14.2.1",
+    "graphql-iso-date": "^3.6.1",
+    "puppeteer": "^1.11.0",
+    "redux": "^4.0.1"
+  }
+}

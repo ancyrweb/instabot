@@ -1,0 +1,100 @@
+.header {
+  height: 7rem;
+  background-color: $color-primary;
+
+  &__title {
+    color: white;
+    margin: 0;
+    width: 20rem;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.body {
+  width: 100vw;
+}
+
+.menu {
+  width: 20rem;
+
+  position: fixed;
+  margin-top: 7rem;
+  top: 0;
+  bottom: 0;
+  float: left;
+
+  background-color: white;
+
+  padding-top: 2rem;
+
+  & ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 0;
+
+    & a {
+      padding: 1rem 4rem 1rem 4rem;
+
+      display: block;
+      text-decoration: none;
+      color: #333;
+
+      transition: all .2s;
+      text-align: right;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
+
+.content {
+  margin-left: 20rem;
+  padding: 3.8rem 4rem 4rem 4rem;
+}
+
+.error {
+  margin: 0;
+
+  background-color: #ff6332;
+  color: white;
+  font-weight: 700;
+
+  padding: 2rem 4rem 2rem 4rem;
+}
+
+.app-box {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 4px 4px rgba(0,0,0,.15);
+
+  padding: 1rem 2.6rem 1rem 2.6rem;
+
+  &__title {
+    font-size: 2rem;
+  }
+}
+
+.app-stats {
+  display: flex;
+
+  &__row {
+    flex: 1;
+    margin: 3rem 0 3rem 0;
+  }
+  &__title {
+    font-size: 7rem;
+    margin: 0;
+    text-align: center;
+  }
+  & p {
+    font-size: 2rem;
+    margin: 1rem 0 0 0;
+    text-align: center;
+  }
+}
