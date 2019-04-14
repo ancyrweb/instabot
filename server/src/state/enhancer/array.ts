@@ -1,9 +1,9 @@
 /**
- * Middleware that allow to dispatch an array of actions, resulting in a single render
+ * Enhancer that allow to dispatch an array of actions, resulting in a single render
  * @param next
  * @returns {Function}
  */
-export default function reduxBatchMiddleware(next: any) {
+export default function reduxArrayEnhancer(next: any) {
   let nextListeners: any = [];
   let currentListeners: any;
 
